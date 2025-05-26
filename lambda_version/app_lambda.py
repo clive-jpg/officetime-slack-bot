@@ -1,4 +1,4 @@
-# OfficeTime Slack Bot — Socket Mode Version
+# OfficeTime Slack Bot — Lambda Mode Version
 # ------------------------------------------
 # A lightweight Slack bot that responds to `/officetime` by showing local time
 # across company offices using emojis that reflect local culture or landmarks.
