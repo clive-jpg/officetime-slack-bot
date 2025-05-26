@@ -28,11 +28,12 @@ Enable Slash command in app permision
 - Command: set to /officetime
 
 ## Common Issues
-- Ensure that pytho module dependencies are installed
+
+- Ensure that python module dependencies are installed
 - Ensure that bot and app tokens match on slack admin
 - Ensure /slashcommand in app permissions is to 'officetime' to enable app
 
 ## Upcoming
 
 - Creation of App Manifest file for easy app creation (Easy setup)
-- Http based client server based version - command on requests (Serverless)
+
