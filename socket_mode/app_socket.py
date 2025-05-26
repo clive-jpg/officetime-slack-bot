@@ -9,7 +9,7 @@
 # This bot uses .env for slack binding, check the .env.example for required variable format.
 #
 # Author: Cameron Livingstone
-# github.com/cameron-livingstone | 2025
+# github.com/clive-jpg | 2025
 
 import os
 from datetime import datetime
