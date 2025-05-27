@@ -1,8 +1,10 @@
-# OfficeTime Slack Bot 🕒
+# OfficeTime Slack Bot 🕒 
 
-**OfficeTime** is a lightweight Slack bot that responds to the `/officetime` command by showing current local times across key office locations to the user silently. Requires no external API calls, making commands efficient.
+***OfficeTime*** is a lightweight Slack bot that responds to the slack /officetime command by showing current local times across key office locations.
 
-It uses Python, Slack Bolt, and emoji-based city icons. Currently, Websocket (persistent) based slack app is supported. (TBA)
+This was my first project—built to explore Python, get comfortable with GitHub, and try out AWS services like Lambda and EC2, along with the Slack API. It doesn’t use any external web APIs—just Python timezone modules.
+
+Both Socket Mode and AWS Lambda versions are included—check the files to see what’s needed for each.
 
 ![OfficeTime Bot Screenshot](assets/officetimebot.png)
 
