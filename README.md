@@ -6,7 +6,13 @@ This was my first project—built to explore Python, get comfortable with GitHub
 
 Both Socket Mode and AWS Lambda versions are included—check the files to see what’s needed for each.
 
+README in Progress - More setup details soon!
+
 ![OfficeTime Bot Screenshot](assets/officetimebot.png)
+
+ Example output of the `/officetime` command.  
+> The bot shows local times across key office locations using emojis and timezone-aware formatting.  
+> The response is sent as an ephemeral message (visible only to the user who triggered the command).
 
 ---
 
@@ -20,14 +26,16 @@ Both Socket Mode and AWS Lambda versions are included—check the files to see w
 
 ---
 
-## Required scopes (Set these in Slack Admin App Permissions)
 
-Required scopes:
-- commands – to register /officetime
-- chat:write – to send ephemeral messages
+## Setup (In Progress)
 
-Enable Slash command in app permision
-- Command: set to /officetime
+### Slack App Scopes (Set in your Slack Admin > OAuth & Permissions):
+- `commands` – to register the `/officetime` slash command
+- `chat:write` – to send messages on behalf of the bot
+
+### Slash Command:
+- **Command:** `/officetime`
+
 
 ## Common Issues
 
@@ -38,4 +46,6 @@ Enable Slash command in app permision
 ## Upcoming
 
 - Creation of App Manifest file for easy app creation (Easy setup)
+
+_Thanks for checking this out! README is still in progress — more updates soon._
 
