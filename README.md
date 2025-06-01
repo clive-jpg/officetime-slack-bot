@@ -4,9 +4,9 @@
 
 This was my first project—built to explore Python, get comfortable with GitHub, and try out AWS services like Lambda and EC2, along with the Slack API. It doesn’t use any external web APIs—just Python timezone modules.
 
-Both Socket Mode and AWS Lambda versions are included—check the files to see what’s needed for each.
+![OfficeTime Bot Screenshot](assets/App-Bolt-Diagram.png)
 
-README in Progress - More setup details soon!
+Both Socket Mode and AWS Lambda versions are included—check the files to see what’s needed for each.
 
 ![OfficeTime Bot Screenshot](assets/officetimebot.png)
 
@@ -15,6 +15,9 @@ README in Progress - More setup details soon!
 > The response is sent as an ephemeral message (visible only to the user who triggered the command).
 
 ---
+
+
+
 
 ## Features
 
